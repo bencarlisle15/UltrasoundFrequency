@@ -1,0 +1,11 @@
+This is the UltrasoundFrequency-write-a-block package meant as a guide to building
+out-of-tree packages. To use the UltrasoundFrequency blocks, the Python namespaces
+is in 'UltrasoundFrequency', which is imported as:
+
+    import UltrasoundFrequency
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(UltrasoundFrequency)

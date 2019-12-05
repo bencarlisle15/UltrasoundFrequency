@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<block>
+  <name>signal_on_off</name>
+  <key>UltrasoundFrequency_signal_on_off</key>
+  <category>[UltrasoundFrequency]</category>
+  <import>import UltrasoundFrequency</import>
+  <make>UltrasoundFrequency.signal_on_off($period, $pulse, $center_freq)</make>
+  <param>
+    <name>Period (s)</name>
+    <key>period</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Pulse Length (s)</name>
+    <key>pulse</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Center Frequency (Hz)</name>
+    <key>center_freq</key>
+    <type>float</type>
+  </param>
+  <source>
+    <name>out1</name>
+    <type>message</type>
+  </source>
+  <source>
+    <name>out2</name>
+    <type>message</type>
+  </source>
+</block>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>drop_or_keep</name>
+  <key>UltrasoundFrequency_drop_or_keep</key>
+  <category>[UltrasoundFrequency]</category>
+  <import>import UltrasoundFrequency</import>
+  <make>UltrasoundFrequency.drop_or_keep()</make>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>commands</name>
+    <type>message</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
