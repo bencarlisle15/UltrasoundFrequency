@@ -9,3 +9,13 @@ in this package. A quick listing of the details can be found in Python
 after importing by using:
 
     help(UltrasoundFrequency)
+    
+This OOT can be installed through
+1.) git clone https://github.com/bencarlisle15/UltrasoundFrequency.git
+2.) cd UltrasoundFrequency
+3.) mkdir build
+4.) cd build
+5.) cmake ..
+6.) make
+7.) sudo make install
+8.) sudo ldconfig
